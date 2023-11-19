@@ -1,25 +1,409 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-18T15:49:11 EST" name="Default suite" finished-at="2023-11-18T15:49:18 EST" duration-ms="6902">
+  <suite started-at="2023-11-19T12:45:21 EST" name="Suite" finished-at="2023-11-19T12:47:41 EST" duration-ms="139357">
     <groups>
     </groups>
-    <test started-at="2023-11-18T15:49:11 EST" name="Default test" finished-at="2023-11-18T15:49:18 EST" duration-ms="6902">
+    <test started-at="2023-11-19T12:45:21 EST" name="Test" finished-at="2023-11-19T12:47:41 EST" duration-ms="139357">
       <class name="com.tutorialsninja.qa.TestCases.SearchProductTest">
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@130c12b7]" started-at="2023-11-18T15:49:11 EST" name="registerSetup" finished-at="2023-11-18T15:49:16 EST" duration-ms="5382" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:09 EST" name="registerSetup" finished-at="2023-11-19T12:47:13 EST" duration-ms="4241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@130c12b7]" started-at="2023-11-18T15:49:16 EST" name="verifySearchWithNoProduct" finished-at="2023-11-18T15:49:17 EST" duration-ms="1257" status="PASS">
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:13 EST" name="verifySearchWithValidProduct" finished-at="2023-11-19T12:47:14 EST" duration-ms="786" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.tutorialsninja.qa.TestCases.SearchProductTest.verifySearchWithValidProduct(SearchProductTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:15 EST" name="tearDown" finished-at="2023-11-19T12:47:15 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:15 EST" name="registerSetup" finished-at="2023-11-19T12:47:19 EST" duration-ms="4042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:19 EST" name="verifySearchWithInvalidProduct" finished-at="2023-11-19T12:47:20 EST" duration-ms="790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:20 EST" name="tearDown" finished-at="2023-11-19T12:47:20 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:20 EST" name="registerSetup" finished-at="2023-11-19T12:47:24 EST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:24 EST" name="verifySearchWithNoProduct" finished-at="2023-11-19T12:47:25 EST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchWithNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@130c12b7]" started-at="2023-11-18T15:49:17 EST" name="tearDown" finished-at="2023-11-18T15:49:18 EST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.SearchProductTest@27406a17]" started-at="2023-11-19T12:47:25 EST" name="tearDown" finished-at="2023-11-19T12:47:25 EST" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tutorialsninja.qa.TestCases.SearchProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.tutorialsninja.qa.TestCases.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.AddToCartTest@2af004b]" started-at="2023-11-19T12:47:25 EST" name="setup" finished-at="2023-11-19T12:47:29 EST" duration-ms="4394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkingOutValidProduct()[pri:0, instance:com.tutorialsninja.qa.TestCases.AddToCartTest@2af004b]" started-at="2023-11-19T12:47:29 EST" name="checkingOutValidProduct" finished-at="2023-11-19T12:47:40 EST" duration-ms="11212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingOutValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.AddToCartTest@2af004b]" started-at="2023-11-19T12:47:40 EST" name="tearDown" finished-at="2023-11-19T12:47:41 EST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.qa.TestCases.AddToCartTest -->
+      <class name="com.tutorialsninja.qa.TestCases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:45:55 EST" name="setup" finished-at="2023-11-19T12:46:01 EST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:01 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:02 EST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:02 EST" name="tearDown" finished-at="2023-11-19T12:46:02 EST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:02 EST" name="setup" finished-at="2023-11-19T12:46:07 EST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:07 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:08 EST" duration-ms="1327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:08 EST" name="tearDown" finished-at="2023-11-19T12:46:09 EST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:09 EST" name="setup" finished-at="2023-11-19T12:46:13 EST" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:13 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:14 EST" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:14 EST" name="tearDown" finished-at="2023-11-19T12:46:14 EST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:14 EST" name="setup" finished-at="2023-11-19T12:46:19 EST" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:19 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:20 EST" duration-ms="1149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:20 EST" name="tearDown" finished-at="2023-11-19T12:46:20 EST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:20 EST" name="setup" finished-at="2023-11-19T12:46:25 EST" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:25 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:26 EST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:26 EST" name="tearDown" finished-at="2023-11-19T12:46:26 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:26 EST" name="setup" finished-at="2023-11-19T12:46:32 EST" duration-ms="5879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:32 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:33 EST" duration-ms="1075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:33 EST" name="tearDown" finished-at="2023-11-19T12:46:33 EST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:33 EST" name="setup" finished-at="2023-11-19T12:46:38 EST" duration-ms="4671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:38 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:39 EST" duration-ms="1271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:39 EST" name="tearDown" finished-at="2023-11-19T12:46:39 EST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:39 EST" name="setup" finished-at="2023-11-19T12:46:45 EST" duration-ms="5275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:45 EST" name="verifyLoginWithValidCredentials" data-provider="TNLogin" finished-at="2023-11-19T12:46:46 EST" duration-ms="1247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda7@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:46 EST" name="tearDown" finished-at="2023-11-19T12:46:46 EST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:46 EST" name="setup" finished-at="2023-11-19T12:46:51 EST" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithInvalidEmailValidPassword()[pri:2, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:51 EST" name="VerifyLoginWithInvalidEmailValidPassword" finished-at="2023-11-19T12:46:52 EST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidEmailValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:52 EST" name="tearDown" finished-at="2023-11-19T12:46:52 EST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:52 EST" name="setup" finished-at="2023-11-19T12:46:57 EST" duration-ms="4914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithValidEmailInvalidPassword()[pri:3, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:57 EST" name="VerifyLoginWithValidEmailInvalidPassword" finished-at="2023-11-19T12:46:58 EST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:58 EST" name="tearDown" finished-at="2023-11-19T12:46:58 EST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:46:58 EST" name="setup" finished-at="2023-11-19T12:47:03 EST" duration-ms="5074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithInvalidCredentials()[pri:4, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:47:03 EST" name="VerifyLoginWithInvalidCredentials" finished-at="2023-11-19T12:47:04 EST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:47:04 EST" name="tearDown" finished-at="2023-11-19T12:47:04 EST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:47:04 EST" name="setup" finished-at="2023-11-19T12:47:08 EST" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithNoCredentials()[pri:5, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:47:08 EST" name="VerifyLoginWithNoCredentials" finished-at="2023-11-19T12:47:09 EST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.LoginTest@76b1e9b8]" started-at="2023-11-19T12:47:09 EST" name="tearDown" finished-at="2023-11-19T12:47:09 EST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.qa.TestCases.LoginTest -->
+      <class name="com.tutorialsninja.qa.TestCases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:22 EST" name="setup" finished-at="2023-11-19T12:45:27 EST" duration-ms="5714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRegisterWithMandatoryFields()[pri:1, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:27 EST" name="verifyingRegisterWithMandatoryFields" finished-at="2023-11-19T12:45:29 EST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisterWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:29 EST" name="tearDown" finished-at="2023-11-19T12:45:29 EST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:29 EST" name="setup" finished-at="2023-11-19T12:45:34 EST" duration-ms="4976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRegisterWithAllFields()[pri:2, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:34 EST" name="verifyingRegisterWithAllFields" finished-at="2023-11-19T12:45:36 EST" duration-ms="1981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisterWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:36 EST" name="tearDown" finished-at="2023-11-19T12:45:36 EST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:36 EST" name="setup" finished-at="2023-11-19T12:45:41 EST" duration-ms="4947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRegisterWithExistingEmail()[pri:3, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:41 EST" name="verifyingRegisterWithExistingEmail" finished-at="2023-11-19T12:45:42 EST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:42 EST" name="tearDown" finished-at="2023-11-19T12:45:42 EST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:42 EST" name="setup" finished-at="2023-11-19T12:45:47 EST" duration-ms="4871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRegisterWithMismatchPassword()[pri:4, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:47 EST" name="verifyingRegisterWithMismatchPassword" finished-at="2023-11-19T12:45:49 EST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisterWithMismatchPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:49 EST" name="tearDown" finished-at="2023-11-19T12:45:49 EST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:49 EST" name="setup" finished-at="2023-11-19T12:45:54 EST" duration-ms="5293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRegisterWithNoFields()[pri:5, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:54 EST" name="verifyingRegisterWithNoFields" finished-at="2023-11-19T12:45:55 EST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRegisterWithNoFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.TestCases.RegisterTest@38cee291]" started-at="2023-11-19T12:45:55 EST" name="tearDown" finished-at="2023-11-19T12:45:55 EST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.qa.TestCases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

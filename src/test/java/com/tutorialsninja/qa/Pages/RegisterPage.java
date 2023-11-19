@@ -97,8 +97,34 @@ public class RegisterPage {
 		privacyPolicyCheckBox.click();
 	}
 	
-	public void clickOnContinueButton() {
+	public AccountSuccessPage clickOnContinueButton() {
 		continueButton.click();
+		return new AccountSuccessPage(driver);
+	}
+	
+	public AccountSuccessPage registerPageMandatoryDetails(String firstnametext, String lastnametext, String emailtext, String telephonetext, String passwordtext, String confirmpasswordtext) {
+		firstNameField.sendKeys(firstnametext);
+		lastNameField.sendKeys(lastnametext);
+		emailField.sendKeys(emailtext);
+		telehoneField.sendKeys(telephonetext);
+		passwordField.sendKeys(passwordtext);
+		confirmPasswordField.sendKeys(confirmpasswordtext);
+		privacyPolicyCheckBox.click();
+		continueButton.click();
+		return new AccountSuccessPage(driver);
+	}
+	
+	public AccountSuccessPage registerPageAllDetails(String firstnametext, String lastnametext, String emailtext, String telephonetext, String passwordtext, String confirmpasswordtext) {
+		firstNameField.sendKeys(firstnametext);
+		lastNameField.sendKeys(lastnametext);
+		emailField.sendKeys(emailtext);
+		telehoneField.sendKeys(telephonetext);
+		passwordField.sendKeys(passwordtext);
+		confirmPasswordField.sendKeys(confirmpasswordtext);
+		newsLetterRadioButton.click();
+		privacyPolicyCheckBox.click();
+		continueButton.click();
+		return new AccountSuccessPage(driver);
 	}
 	
 	public String retrieveDuplicateEmailWarning() {
@@ -141,5 +167,19 @@ public class RegisterPage {
 	public String retrievePasswordWarning() {
 		String PwdWarning = passwordWarning.getText();
 		return PwdWarning;	
+	}
+	
+	public boolean retrieveAllWarningMessageStatus(String expectedPrivacyPolicyWarning, String expectedFirstNameWarning, String expectedLastNameWarning,
+			String expectedEmailWarning, String expectedTelephoneWarning, String expectedPasswordWarning) {
+		
+		boolean privacyPolicyWarningStatus = privacyPolicyWarning.getText().contains(expectedPrivacyPolicyWarning);
+		boolean firstNameWarningStatus = firstNameWarning.getText().contains(expectedFirstNameWarning);
+		boolean lastNameWarningStatus = lastNameWarning.getText().contains(expectedLastNameWarning);
+		boolean emailWarningStatus = emailWarning.getText().contains(expectedEmailWarning);
+		boolean telephoneWarningStatus = telephoneWarning.getText().contains(expectedTelephoneWarning);
+		boolean passwordWarningStatus = passwordWarning.getText().contains(expectedPasswordWarning);
+		
+		return privacyPolicyWarningStatus && firstNameWarningStatus && lastNameWarningStatus && emailWarningStatus && telephoneWarningStatus &&
+				passwordWarningStatus;
 	}
 }

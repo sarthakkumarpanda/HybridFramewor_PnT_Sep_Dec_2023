@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 142.978 s <<< FAILURE! - in TestSuite
+verifySearchWithValidProduct(com.tutorialsninja.qa.TestCases.SearchProductTest)  Time elapsed: 0.774 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at com.tutorialsninja.qa.TestCases.SearchProductTest.verifySearchWithValidProduct(SearchProductTest.java:33)
+

@@ -16,6 +16,8 @@ public SearchProductTest() throws Exception {
 	}
 
 public WebDriver driver;
+public HomePage homepage;
+public SearchPage searchpage;
 	
 	@BeforeMethod
 	public void registerSetup() {
@@ -25,29 +27,24 @@ public WebDriver driver;
 	
 	@Test(priority=1)
 	public void verifySearchWithValidProduct() {
-		HomePage homepage = new HomePage(driver);
+		homepage = new HomePage(driver);
 		homepage.enterProductDetail(dataProp.getProperty("validProduct"));
-		//driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("validProduct"));
-		homepage.clickOnSearchIcon(); //System will be re-directed to SearchPage
-		//driver.findElement(By.cssSelector("button.btn.btn-default.btn-lg")).click();
-		SearchPage searchpage = new SearchPage(driver);
-	    Assert.assertTrue(searchpage.verifyDisplayStatusOfValidProduct());
-		//Assert.assertTrue(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
+		searchpage = homepage.clickOnSearchIcon(); //System will be re-directed to SearchPage
+	    Assert.assertFalse(searchpage.verifyDisplayStatusOfValidProduct()); //deliberate failure
 	}
+	
 	@Test(priority=2)
 	public void verifySearchWithInvalidProduct() {
-		HomePage homepage = new HomePage(driver);
+		homepage = new HomePage(driver);
 		homepage.enterProductDetail(dataProp.getProperty("invalidProduct"));
-		homepage.clickOnSearchIcon();
-		SearchPage searchpage = new SearchPage(driver);
+		searchpage = homepage.clickOnSearchIcon();
 		Assert.assertTrue(searchpage.verifyDisplayStatusOfInValidProduct());
 	}
 	
 	@Test(priority=3)
 	public void verifySearchWithNoProduct() {
-		HomePage homepage = new HomePage(driver);
-		homepage.clickOnSearchIcon();
-		SearchPage searchpage = new SearchPage(driver);
+		homepage = new HomePage(driver);
+		searchpage = homepage.clickOnSearchIcon();
 		Assert.assertTrue(searchpage.verifyDisplayStatusOfInValidProduct());
 	}
 	

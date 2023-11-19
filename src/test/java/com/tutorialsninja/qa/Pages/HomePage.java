@@ -44,20 +44,23 @@ public class HomePage {
 		myAccountDropdown.click();
 	}
 	
-	public void selectLoginOption() {
+	public LoginPage selectLoginOption() {
 		loginOption.click();
+		return new LoginPage(driver);
 	}
 	
-	public void selectRegisterOption() {
+	public RegisterPage selectRegisterOption() {
 		registerOption.click();
+		return new RegisterPage(driver);
 	}
 	
 	public void enterProductDetail(String productNameText) {
 		searchTextBoxField.sendKeys(productNameText);
 	}
 	
-	public void clickOnSearchIcon() {
+	public SearchPage clickOnSearchIcon() {
 		searchButton.click();
+		return new SearchPage(driver);
 	}
 
 }

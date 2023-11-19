@@ -29,7 +29,7 @@ public class TestBase {
 		prop.load(ip);
 		
 		dataProp = new Properties();
-		idatap = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\tutorialsninja\\qa\\TestData\\systemgeneratedResponseData_UserDefinedData.properties");
+		idatap = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\tutorialsninja\\qa\\TestData\\DataProp.properties");
 		dataProp.load(idatap);
 	}
 	

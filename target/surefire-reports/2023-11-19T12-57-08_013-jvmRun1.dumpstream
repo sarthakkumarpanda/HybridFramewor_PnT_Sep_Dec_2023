@@ -1,0 +1,309 @@
+# Created at 2023-11-19T12:57:16.374
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-11-19T12:57:18.003
+Unexpected IOException: 8,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,LoginTest.setup:31 \00BB NoSuchWindow no such window: target window already closed...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258\000A\0009at com.tutorialsninja.qa.TestCases.LoginTest.setup(LoginTest.java:31)\000A
+
+
+# Created at 2023-11-19T12:57:18.006
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.008
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.010
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.015
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.017
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.019
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.022
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.024
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.026
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.029
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.031
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.034
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.035
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.037
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.039
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.041
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.042
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.043
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.045
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.046
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.048
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.049
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.051
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.053
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.055
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.056
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.058
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.061
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.062
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.064
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,verifyLoginWithValidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.065
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.068
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.069
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithInvalidEmailValidPassword(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.071
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithInvalidEmailValidPassword(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.073
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.077
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.079
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithValidEmailInvalidPassword(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.080
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithValidEmailInvalidPassword(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.081
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.083
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.084
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithInvalidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.086
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithInvalidCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.087
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.089
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,setup(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:18.092
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithNoCredentials(com.tutorialsninja.qa.TestCases.LoginTest),com.tutorialsninja.qa.TestCases.LoginTest,null,null
+
+
+# Created at 2023-11-19T12:57:18.094
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,VerifyLoginWithNoCredentials(com.tutorialsninja.qa.TestCases.LoginTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [f20e0fb383f65f34a3831f151f8a8258\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60539}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60539/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: f20e0fb383f65f34a3831f151f8a8258,null
+
+
+# Created at 2023-11-19T12:57:18.095
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.LoginTest,tearDown(com.tutorialsninja.qa.TestCases.LoginTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.570
+Unexpected IOException: 8,1,com.tutorialsninja.qa.TestCases.RegisterTest,setup(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,RegisterTest.setup:30 \00BB NoSuchWindow no such window: target window already clo...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c\000A\0009at com.tutorialsninja.qa.TestCases.RegisterTest.setup(RegisterTest.java:30)\000A
+
+
+# Created at 2023-11-19T12:57:19.573
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithMandatoryFields(com.tutorialsninja.qa.TestCases.RegisterTest),com.tutorialsninja.qa.TestCases.RegisterTest,null,null
+
+
+# Created at 2023-11-19T12:57:19.577
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithMandatoryFields(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null
+
+
+# Created at 2023-11-19T12:57:19.579
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,tearDown(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.583
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,setup(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.585
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithAllFields(com.tutorialsninja.qa.TestCases.RegisterTest),com.tutorialsninja.qa.TestCases.RegisterTest,null,null
+
+
+# Created at 2023-11-19T12:57:19.586
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithAllFields(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null
+
+
+# Created at 2023-11-19T12:57:19.588
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,tearDown(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.592
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,setup(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.594
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithExistingEmail(com.tutorialsninja.qa.TestCases.RegisterTest),com.tutorialsninja.qa.TestCases.RegisterTest,null,null
+
+
+# Created at 2023-11-19T12:57:19.595
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithExistingEmail(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null
+
+
+# Created at 2023-11-19T12:57:19.599
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,tearDown(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.602
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,setup(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.604
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithMismatchPassword(com.tutorialsninja.qa.TestCases.RegisterTest),com.tutorialsninja.qa.TestCases.RegisterTest,null,null
+
+
+# Created at 2023-11-19T12:57:19.607
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithMismatchPassword(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null
+
+
+# Created at 2023-11-19T12:57:19.609
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,tearDown(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.613
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,setup(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:19.614
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithNoFields(com.tutorialsninja.qa.TestCases.RegisterTest),com.tutorialsninja.qa.TestCases.RegisterTest,null,null
+
+
+# Created at 2023-11-19T12:57:19.615
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,verifyingRegisterWithNoFields(com.tutorialsninja.qa.TestCases.RegisterTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [97933e5c6d57d70ffa1b67d73317ed9c\002C findElement {using=link text\002C value=My Account}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60598}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60598/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 97933e5c6d57d70ffa1b67d73317ed9c,null
+
+
+# Created at 2023-11-19T12:57:19.618
+Unexpected IOException: 9,1,com.tutorialsninja.qa.TestCases.RegisterTest,tearDown(com.tutorialsninja.qa.TestCases.RegisterTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:24.204
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithValidProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),com.tutorialsninja.qa.TestCases.SearchProductTest,null,null
+
+
+# Created at 2023-11-19T12:57:25.002
+Unexpected IOException: 8,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithValidProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),null,expected [false] but found [true],null,expected [false] but found [true],SearchProductTest.verifySearchWithValidProduct:33 expected [false] but found [true],java.lang.AssertionError: expected [false] but found [true]\000A\0009at com.tutorialsninja.qa.TestCases.SearchProductTest.verifySearchWithValidProduct(SearchProductTest.java:33)\000A
+
+
+# Created at 2023-11-19T12:57:27.087
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithInvalidProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),com.tutorialsninja.qa.TestCases.SearchProductTest,null,null
+
+
+# Created at 2023-11-19T12:57:27.100
+Unexpected IOException: 8,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithInvalidProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cfcad74cabb6093b677d155a4942ef46\002C findElement {using=name\002C value=search}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60696}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60696/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cfcad74cabb6093b677d155a4942ef46,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cfcad74cabb6093b677d155a4942ef46\002C findElement {using=name\002C value=search}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60696}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60696/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cfcad74cabb6093b677d155a4942ef46,SearchProductTest.verifySearchWithInvalidProduct:39 \00BB NoSuchWindow no such win...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=119.0.6045.160)\000ABuild info: version: '4.15.0'\002C revision: '1d14b5521b'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '17.0.7'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [cfcad74cabb6093b677d155a4942ef46\002C findElement {using=name\002C value=search}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 119.0.6045.160\002C chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e...\002C userDataDir: C:\005CUsers\005Csarth\005CAppData\005CLoca...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60696}\002C networkConnectionEnabled: false\002C pageLoadStrategy: eager\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60696/devtoo...\002C se:cdpVersion: 119.0.6045.160\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: cfcad74cabb6093b677d155a4942ef46\000A\0009at com.tutorialsninja.qa.TestCases.SearchProductTest.verifySearchWithInvalidProduct(SearchProductTest.java:39)\000A
+
+
+# Created at 2023-11-19T12:57:31.421
+Unexpected IOException: 5,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithNoProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),com.tutorialsninja.qa.TestCases.SearchProductTest,null,null
+
+
+# Created at 2023-11-19T12:57:31.935
+Unexpected IOException: 6,1,com.tutorialsninja.qa.TestCases.SearchProductTest,verifySearchWithNoProduct(com.tutorialsninja.qa.TestCases.SearchProductTest),null,null,null
+
+
+# Created at 2023-11-19T12:57:32.540
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+
