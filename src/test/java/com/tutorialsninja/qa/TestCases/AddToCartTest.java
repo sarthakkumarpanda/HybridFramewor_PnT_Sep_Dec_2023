@@ -7,6 +7,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.tutorialsninja.qa.Pages.HomePage;
+import com.tutorialsninja.qa.Pages.ProductInfoPage;
+import com.tutorialsninja.qa.Pages.SearchPage;
 import com.tutorialsninja.qa.TestBase.TestBase;
 
 public class AddToCartTest extends TestBase{
@@ -21,14 +24,16 @@ public WebDriver driver;
 		driver = initalizeBrowserAndOpenApplication(prop.getProperty("browser"));
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void checkingOutValidProduct() throws Exception {
-		driver.findElement(By.name("search")).sendKeys(dataProp.getProperty("validProduct"));
-		driver.findElement(By.cssSelector("button.btn.btn-default.btn-lg")).click();
-		Assert.assertTrue(driver.findElement(By.linkText("HP LP3065")).isDisplayed());
-		driver.findElement(By.xpath("//div[@class = 'caption']/following-sibling::div/child::button[1]")).click();
+		HomePage homepage = new HomePage(driver);
+		homepage.enterProductDetail(dataProp.getProperty("validProduct"));
+		SearchPage searchpage = homepage.clickOnSearchIcon();
+		Assert.assertTrue(searchpage.verifyDisplayStatusOfValidProduct());
+		ProductInfoPage productinfopage = searchpage.clickOnAddToCartButton(); // system is re-directed to ProductInfoPage
 		Thread.sleep(3000);
-		Assert.assertTrue(driver.findElement(By.xpath("//li[contains(text(), 'Product Code:Product 21')]")).isDisplayed());
+		Assert.assertTrue(productinfopage.validateDisplayStatusProdInfo());
+	
 		driver.findElement(By.xpath("//button[@id = 'button-cart']")).click();
 		String expectedMessage = dataProp.getProperty("productAddedSuccessfullyToCartMessage");
 		Thread.sleep(3000);

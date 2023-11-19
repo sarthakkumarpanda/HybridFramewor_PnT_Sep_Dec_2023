@@ -15,6 +15,9 @@ public class SearchPage {
 	@FindBy(xpath = "//p[text() = 'There is no product that matches the search criteria.']")
 	private WebElement invalidProductWarningMessage;
 	
+	@FindBy(xpath = "//div[@class = 'caption']/following-sibling::div/child::button[1]")
+	private WebElement addToCartButton;
+	
 	
 	public SearchPage(WebDriver driver) {
 		this.driver = driver;
@@ -29,6 +32,11 @@ public class SearchPage {
 	public boolean verifyDisplayStatusOfInValidProduct() {
 		boolean presenceInvalidProduct = invalidProductWarningMessage.isDisplayed();
 		return presenceInvalidProduct;
+	}
+	
+	public ProductInfoPage clickOnAddToCartButton() {
+		addToCartButton.click();
+		return new ProductInfoPage(driver);
 	}
 	
 }
